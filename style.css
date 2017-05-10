@@ -8,10 +8,38 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-size: 30;
+  color: grey;
+}
+
+p {
+  font-size: 20;
+  color: grey;
+}
+
+div{
+  display: center;
+}
+
+.rules {
+  background-color: white;
+  width: 400px;
+  height: 220px;
+  border-radius: 10px;
+  border: solid 1px black;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: center;
+}
+
+
 .racer_table td {
   height: 50px;
   width: 50px;
-  background-color: white;
+  background-image: url('images/road.png');
 }
 
 .racer_table td.active {
@@ -35,6 +63,7 @@ h1 {
   background-size: cover;
 }
 
-td.first {
-  background-color: lightgrey;
+td {
+  background-image: url('images/road.png');
 }
+

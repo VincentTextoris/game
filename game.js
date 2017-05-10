@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+
+
   $(document).on('keyup', function(event) {
    if(event.which==81){
       var position_red = $('#player1_race .active');
