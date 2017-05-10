@@ -1,0 +1,40 @@
+/* Your board style here */
+hr {
+border-top: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.racer_table td {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+}
+#end_of_race {
+  background-image: url("https://www.ederflag.com/media/k2/galleries/227/30x30-motorcycle-racing-flag-end-of-race.jpg");
+  background-size: cover;
+
+}
+
+.wagon_image {
+  background-image: url('http://www.thecars.ch/wp-content/uploads/2013/12/Volkswagen-Kombi.jpg');
+  background-size: cover;
+}
+
+td.first {
+  background-color: lightgrey;
+}
